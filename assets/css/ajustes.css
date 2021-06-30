@@ -1,0 +1,150 @@
+
+/* Tamanho Carousel e imagem */
+.tam-carousel-img, img.img-tam{
+    height: 600px;
+  }
+
+/* modals */
+.img-tam-mod-apoio{
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 40%;
+}  
+
+/*rodapé*/
+
+ul{ /*links de conheça.., apoio, redes sociais*/
+    padding-inline-start: 0px;
+}
+
+/* icones */
+.icon-social{
+    font-size: 30px;
+}
+
+/* Estilo de texto */
+
+h2{
+    font-weight: bold!important;
+    color: white;
+}
+span{
+    color: #007bff;
+    font-weight: bold;
+}
+p.lead{
+    font-weight: bold;
+    color: white;
+}
+p#white-bold{
+    font-weight: bold;
+    color: white;
+}
+
+/* responsividade */
+
+@media screen and (max-width:736px){
+    #img{
+        width:70%; 
+        display: flex;
+        align-items: center;
+        left: 19%;
+        margin-top: -50px;
+        margin-bottom: -50px;
+    }
+    #ajuste{
+        width:70%; 
+        left: 15%;
+    }
+   #centralizar{
+       font-size: 32px;
+       text-align: center;
+   }
+   #lead{
+       font-size: 15px;
+       text-align: center;
+   }
+   #marcaparceira{
+    margin-left: 10%
+   }
+   #cards-inferior{
+       margin-left: 10%;
+   }
+   h1#titulo1{
+       margin-top: 10%;
+       margin-left: 10%;
+       
+   }
+
+   #esp{
+    margin-top: -70px;
+    margin-bottom: -70px;
+   }
+}
+@media screen and (max-width:425px){
+    #marcaparceira{
+     margin-left: 15%;
+    }
+    #cards-superior{
+        margin-left: 10%;
+    }
+    #cards-inferior{
+        margin-left: 13%;
+    }
+    h1#titulo1{
+        margin-top: 5%;
+        margin-left: 10%;   
+    }
+ }
+@media screen and (max-width:375px){
+    #marcaparceira{
+     margin-left: 10%;
+    }
+    #cards-superior{
+        margin-left: 5%;
+    }
+    #cards-inferior{
+        margin-left: 10%;
+    }
+    h1#titulo1{
+        margin-top: 10%;
+        margin-left: 10%;   
+    }
+ }
+.badge-box {
+    position: absolute;
+    top: -10px;
+    right: -20px;
+    padding-top: 5px;
+    width: 150px;
+    height: 30px;
+    background-color: #1e90ff;
+    color: #333;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5%;
+    text-align: center;
+    z-index: 3;
+}
+
+
+/* tabelas */
+
+table{
+    text-align: center;
+    border: 1px solid #1e90ff;
+    border-collapse: collapse;
+  }
+
+th {
+    color: rgb(252, 252, 252);
+    border: 1px solid #1e90ff;
+    border-collapse: collapse;
+    background-color: #1e90ff;
+  }
+
+td {
+    border: 1px solid #1e90ff;
+    border-collapse: collapse;
+  }
