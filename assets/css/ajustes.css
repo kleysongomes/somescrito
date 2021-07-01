@@ -127,24 +127,3 @@ p#white-bold{
     text-align: center;
     z-index: 3;
 }
-
-
-/* tabelas */
-
-table{
-    text-align: center;
-    border: 1px solid #1e90ff;
-    border-collapse: collapse;
-  }
-
-th {
-    color: rgb(252, 252, 252);
-    border: 1px solid #1e90ff;
-    border-collapse: collapse;
-    background-color: #1e90ff;
-  }
-
-td {
-    border: 1px solid #1e90ff;
-    border-collapse: collapse;
-  }
